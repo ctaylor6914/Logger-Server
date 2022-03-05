@@ -1,5 +1,4 @@
 #	FILE			: server.py
-#	PROJECT			: NAD_A03
 #	PROGRAMMER		: Mita Das & Colby Taylor
 #	FIRST VERSION	: 2022-02-15
 #	DESCRIPTION		: This is the server program which accepts clients' data and sends back response
@@ -8,9 +7,7 @@
 #                     be able to determine if the sent message is in the correct format to be able to
 #                     comply with the logging format. if there is an error an error message will be returned
 #                     to the client so that they are aware of the error
-#
-#   AUTHOR          : StackOverflow (Ganesh Jagdale)
-#   SOURCE          : https://stackoverflow.com/questions/20913440/connecting-python-socket-and-java-socket
+
 
 import jpysocket
 import socket
